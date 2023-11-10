@@ -1,0 +1,113 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.setting {
+  font-family: Arial;
+  max-width: 500px;
+  margin: 1rem auto 1.5rem auto;
+  text-align: center;
+}
+.setting input {
+  width: 2rem;
+}
+.runtime {
+  font-family: Arial;
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+}
+.runtime canvas {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 20px;
+  border: 5px black solid;
+  border-color: #213b3b;
+}
+.runtime .result {
+  vertical-align: top;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+}
+.runtime .result h4 {
+  color: #4f4f4f;
+  border-bottom: 5px black solid;
+  border-color: #213b3b;
+}
+.runtime .result li {
+  color: #4f4f4f;
+  text-align: left;
+  list-style-type: none;
+}
+.runtime .result img {
+  margin: 0 auto;
+  width: 280px;
+  height: 280px;
+}
+.history {
+  font-family: Arial;
+  margin: 0 2rem 0 2rem;
+}
+.history h4 {
+  color: #4f4f4f;
+  border-bottom: 5px black solid;
+  border-color: #213b3b;
+}
+.history h5 {
+  border-bottom: 2px black solid;
+  margin-top: 0;
+  margin-bottom: 0.15rem;
+}
+.history #solveList {
+  float: left;
+  width: 160px;
+  min-height: 300px;
+  margin-right: 1rem;
+}
+.history #solveList ul {
+  padding-left: 0.5rem;
+}
+.history #solveList ul li {
+  font-family: Arial;
+  color: #4f4f4f;
+  text-align: left;
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+.history #solveList ul li:hover {
+  color: #2e2e2e;
+  font-weight: 600;
+}
+.history #solveList ul li a:link,
+.history #solveList ul li a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.history #listbox {
+  min-height: 300px;
+  margin-left: 170px;
+}
+.history #listbox .box {
+  height: 210px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+.history #listbox .box h6 {
+  color: #4f4f4f;
+  border-bottom: 1px black solid;
+  border-color: #213b3b;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.history #listbox .box img {
+  height: 180px;
+  width: 180px;
+}
